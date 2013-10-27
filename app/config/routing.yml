@@ -1,0 +1,4 @@
+tabernicola_versioneando:
+    resource: "@TabernicolaVersioneandoBundle/Resources/config/routing.yml"
+    prefix:   /
+
