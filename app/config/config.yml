@@ -64,3 +64,10 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+
+admingenerator_generator:
+    use_propel:           false
+    use_doctrine_orm:     true
+    use_doctrine_odm:     false
+    base_admin_template: AdmingeneratorGeneratorBundle::base_admin_assetic_less.html.twig
+    #dashboard_welcome_path:     MyDashboard_path
